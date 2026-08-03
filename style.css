@@ -184,3 +184,16 @@ header {
   left: 0;
   right: 0;
 }
+
+/* on narrow screens, keep the scrolled header stacked so the title
+   doesn't wrap into multiple lines fighting the nav for row space */
+@media (max-width: 600px) {
+  header.scrolled {
+    flex-direction: column;
+    padding: 10px 16px;
+  }
+
+  header.scrolled h1 {
+    margin-right: 0;
+  }
+}
