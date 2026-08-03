@@ -1,2 +1,7 @@
-<strong>Item 1</strong> — Location 1, 2024
-<strong>Item 2</strong> — Location 2, 2023
+<strong>Lecturer — Mathematical Analysis I</strong>, 1st year, Degree in Mathematics — University of Alicante, Spain (2025–2026)
+<strong>Lecturer — Real Analysis of Several Variables I</strong>, 2nd year, Degree in Mathematics — University of Alicante, Spain (2024–2025)
+<strong>Graduate course — Topics in Mathematics for Deep Learning</strong>, Part III Graduate Course — University of Cambridge, United Kingdom (Lent Term, 2023–2024)
+<strong>Graduate course — Topics in Mathematics for Deep Learning</strong>, Part III Graduate Course — University of Cambridge, United Kingdom (Easter Term, 2022–2023)
+<strong>Teaching assistant</strong> — Mathematical analysis and algebra for sciences; Matrix calculus, 1st year BSc — Sorbonne Université, France (2018–2019)
+<strong>Teaching assistant</strong> — Mathematical Analysis 1 (1st year) and Mathematical Analysis 3 (2nd year), BSc — Université Paris 13, France (2017–2018)
+<strong>Teaching assistant</strong> — Mathematical Analysis 1 and 2, 1st year BSc — Université Paris 13, France (2016–2017)

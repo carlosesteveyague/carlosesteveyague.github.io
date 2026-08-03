@@ -96,6 +96,33 @@ ul li {
   margin-bottom: 0.8rem;
 }
 
+#papers-list li,
+#code-list li,
+#teaching-list li {
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid #eee;
+  line-height: 1.5;
+}
+
+#papers-list li:last-child,
+#code-list li:last-child,
+#teaching-list li:last-child {
+  border-bottom: none;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #facc15;
+  color: #1e293b;
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+
 a {
   color: #1d4ed8;
 }
@@ -156,4 +183,17 @@ header nav {
 header {
   left: 0;
   right: 0;
+}
+
+/* on narrow screens, keep the scrolled header stacked so the title
+   doesn't wrap into multiple lines fighting the nav for row space */
+@media (max-width: 600px) {
+  header.scrolled {
+    flex-direction: column;
+    padding: 10px 16px;
+  }
+
+  header.scrolled h1 {
+    margin-right: 0;
+  }
 }
