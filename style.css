@@ -97,7 +97,7 @@ ul li {
 }
 
 #papers-list li,
-#code-list li,
+#media-list li,
 #teaching-list li {
   padding-bottom: 0.8rem;
   border-bottom: 1px solid #eee;
@@ -105,7 +105,7 @@ ul li {
 }
 
 #papers-list li:last-child,
-#code-list li:last-child,
+#media-list li:last-child,
 #teaching-list li:last-child {
   border-bottom: none;
 }
@@ -121,6 +121,7 @@ ul li {
   border-radius: 4px;
   margin-right: 0.4rem;
   vertical-align: middle;
+  text-decoration: none;
 }
 
 a {

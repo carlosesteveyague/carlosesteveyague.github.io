@@ -17,7 +17,7 @@ async function loadData(file, elementId) {
 }
 
 loadData("data/papers.txt", "papers-list");
-loadData("data/code.txt", "code-list");
+loadData("data/media.txt", "media-list");
 loadData("data/teaching.txt", "teaching-list");
 
 (() => {

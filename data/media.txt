@@ -1,0 +1,1 @@
+<strong>Hamilton-Jacobi Equations, Finite Differences, and Neural Networks</strong> — with R. Tsai and A. Massucco. <em>SIAM News</em>, Collections 59.04, 2026. <a href="https://www.siam.org/publications/siam-news/articles/hamilton-jacobi-equations-finite-differences-and-neural-networks/" target="_blank">Read Article →</a>
