@@ -21,15 +21,15 @@ loadData("data/media.txt", "media-list");
 loadData("data/teaching.txt", "teaching-list");
 
 (() => {
-  const header = document.querySelector('header');
-  if (!header) return;
+  const stickyBar = document.querySelector('.sticky-bar');
+  if (!stickyBar) return;
 
   const thresholdShow = 60; // más alto para activar
   const thresholdHide = 20; // más bajo para desactivar
 
   const checkScroll = () => {
-    if (window.scrollY > thresholdShow) header.classList.add('scrolled');
-    else if (window.scrollY < thresholdHide) header.classList.remove('scrolled');
+    if (window.scrollY > thresholdShow) stickyBar.classList.add('visible');
+    else if (window.scrollY < thresholdHide) stickyBar.classList.remove('visible');
   };
 
   window.addEventListener('scroll', checkScroll, { passive: true });
