@@ -19,8 +19,6 @@ header {
   align-items: center;
   padding: 18px 20px;
   transition: box-shadow 240ms ease;
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
 }
 
 /* default header layout (centered) */
