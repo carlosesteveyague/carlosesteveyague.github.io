@@ -105,6 +105,7 @@ ul li {
   margin-bottom: 0.8rem;
 }
 
+#career-list li,
 #papers-list li,
 #media-list li,
 #teaching-list li {
@@ -113,6 +114,7 @@ ul li {
   line-height: 1.5;
 }
 
+#career-list li:last-child,
 #papers-list li:last-child,
 #media-list li:last-child,
 #teaching-list li:last-child {

@@ -16,6 +16,7 @@ async function loadData(file, elementId) {
   }
 }
 
+loadData("data/career.txt", "career-list");
 loadData("data/papers.txt", "papers-list");
 loadData("data/media.txt", "media-list");
 loadData("data/teaching.txt", "teaching-list");
