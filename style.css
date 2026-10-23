@@ -107,7 +107,6 @@ ul li {
 
 #career-list li,
 #papers-list li,
-#media-list li,
 #teaching-list li {
   padding-bottom: 0.8rem;
   border-bottom: 1px solid #eee;
@@ -116,7 +115,6 @@ ul li {
 
 #career-list li:last-child,
 #papers-list li:last-child,
-#media-list li:last-child,
 #teaching-list li:last-child {
   border-bottom: none;
 }
