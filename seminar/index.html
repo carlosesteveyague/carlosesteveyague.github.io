@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GAMA Seminar</title>
+  <style>
+    :root { --accent: #5F6B02; --bg: #fafaf7; --text: #222; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; }
+    header { background: var(--accent); color: #fff; padding: 2rem 1rem; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 0 1rem; }
+    header h1 { margin: 0 0 .25rem; font-size: 1.9rem; }
+    header p { margin: 0; opacity: .9; }
+    main { padding: 1.5rem 0 3rem; }
+    .actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-bottom: 1rem; }
+    .actions a { padding: .5rem .9rem; border: 1px solid var(--accent); border-radius: 6px; color: var(--accent); text-decoration: none; font-size: .95rem; }
+    .actions a:hover { background: var(--accent); color: #fff; }
+    iframe { width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 6px; background: #fff; }
+    footer { font-size: .85rem; color: #777; padding-bottom: 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1> GAMA Seminar - Seminario del Grupo de Análisis Matemático y Aplicaciones</h1>
+      <!-- Edit this line: university, day/time, room -->
+      <p>Monthly seminar &middot; Department of Mathematics, University of Alicante &middot; Seminario de Matem&aacute;ticas, Facultad de Ciencias 2, 0007PB018 (<a href="https://www.sigua.ua.es/index.html?id=0007PB018" target="_blank" rel="noopener" style="color:#fff">map</a>)</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="actions">
+      <a href="https://calendar.google.com/calendar/u/0/r?cid=c_facb4be145bfd4ca396ed8832a53e814a64924db9ef1326e81886ba4c9f564fc%40group.calendar.google.com" target="_blank" rel="noopener">Add to my Google Calendar</a>
+      <a href="https://calendar.google.com/calendar/ical/c_facb4be145bfd4ca396ed8832a53e814a64924db9ef1326e81886ba4c9f564fc%40group.calendar.google.com/public/basic.ics">Subscribe (iCal)</a>
+    </div>
+
+    <iframe
+      src="https://calendar.google.com/calendar/embed?mode=AGENDA&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=c_facb4be145bfd4ca396ed8832a53e814a64924db9ef1326e81886ba4c9f564fc%40group.calendar.google.com&amp;color=%235F6B02&amp;ctz=Europe%2FMadrid"
+      title="Seminar calendar" loading="lazy"></iframe>
+  </main>
+
+  <footer class="wrap">
+    <!-- Edit this line: organizer contact -->
+    Organizers: Carlos Esteve Yag&uuml;&eacute; (<a href="mailto:c.esteve@ua.es">c.esteve@ua.es</a>) &middot; Eric Dubon (<a href="mailto:eric.dubon@ua.es">eric.dubon@ua.es</a>)
+  </footer>
+</body>
+</html>
